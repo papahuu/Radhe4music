@@ -203,8 +203,8 @@ async def main():
         LOGGER.info(f"🚫 Assistant Error: {e}")
         sys.exit()
     try:
-        await app.join_chat("Ur_Rishu_143")
-        await app.join_chat("Vip_Robotz")
+        await app.join_chat("DP_WORLD7")
+        await app.join_chat("ll_BOTCHAMER_ll")
     except Exception:
         pass
     if LOG_GROUP_ID != 0:
@@ -938,7 +938,7 @@ async def change_stream(chat_id):
             ],
             [
             InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/ll_BOTCHAMBER_ll"),
-            InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/Vip_robotz/4")
+            InlineKeyboardButton("˹ sᴜᴘᴘᴏʀᴛ ˼", url="https://t.me/BOT_SUPPORT_GROUP7")
             ],
             [
                 InlineKeyboardButton(
@@ -1042,7 +1042,7 @@ async def stream_audio_or_video(client, message):
                     ],
                     [
             InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/ll_BOTCHAMBER_ll"),
-            InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/Vip_robotz/4")
+            InlineKeyboardButton("˹ sᴜᴘᴘᴏʀᴛ ˼", url="https://t.me/BOT_SUPPORT_GROUP7")
                     ],
                     [
                         InlineKeyboardButton(
@@ -1126,7 +1126,7 @@ async def stream_audio_or_video(client, message):
             ],
             [
             InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/ll_BOTCHAMBER_ll"),
-            InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/Vip_robotz/4")
+            InlineKeyboardButton("˹ sᴜᴘᴘᴏʀᴛ ˼", url="https://t.me/BOT_SUPPORT_GROUP7")
             ],
             [
                 InlineKeyboardButton(
