@@ -221,7 +221,7 @@ async def main():
     LOGGER.info("✅ PyTgCalls Started.")
     await asyncio.sleep(1)
     LOGGER.info("✅ Sucessfully Hosted Your Bot !!")
-    LOGGER.info("✅ Now Do Visit: @Ur_Rishu_143 !!")
+    LOGGER.info("✅ Now Do Visit: @ll_BOTCHAMBER_ll !!")
     await idle()
 
 
@@ -388,7 +388,7 @@ async def start_message_private(client, message):
 » ✦ ʙєsᴛ ғєᴧᴛυꝛє ʙσᴛ ση ᴛєʟєɢꝛᴧϻ 
 » ✦ ᴧᴅᴅ ϻє ɢꝛσυᴘ ᴛσ sєє ϻʏ ᴘσᴡєʀ
 •──────────────────────•
-❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [𝙱𝙾𝚃-𝙲𝙷𝙰𝙼𝙴𝚁](t.me/ll_BOTCHAMBER_ll)❤️‍🔥
+❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [𝙱𝙾𝚃-𝙲𝙷𝙰𝙼𝙱𝙴𝚁](t.me/ll_BOTCHAMBER_ll)❤️‍🔥
 •──────────────────────•**"""
 
         buttons = InlineKeyboardMarkup(
@@ -484,7 +484,7 @@ HELP_C = """```
 ⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/ll_BOTCHAMBER_ll)**"""
 
 HELP_X = """```
-    【 ʀɪsʜυ-ϻυsɪᴄ 】 ᴍᴇɴᴜ```
+    【 ʀᴀᴅʜᴇ-ϻυsɪᴄ 】 ᴍᴇɴᴜ```
 
 **ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /
 
@@ -500,7 +500,7 @@ HELP_X = """```
 
 ✦ /end - Cʟᴇᴀʀ , ᴇɴᴅ ᴀʟʟ sᴏɴɢ [ᴀᴜɪᴅᴏ & ᴠɪᴅᴇᴏ]
 
-❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ - [𝙱𝙾𝚃-𝙲𝙷𝙰𝙼𝙴𝚁](https://t.me/ll_BOTCHAMBER_ll)**"""
+❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ - [𝙱𝙾𝚃-𝙲𝙷𝙰𝙼𝙱𝙴𝚁](https://t.me/ll_BOTCHAMBER_ll)**"""
 
 # Callback query handler
 @bot.on_callback_query(filters.regex("RISHU_RAJPUT"))
@@ -530,7 +530,7 @@ async def delete_cb_query(client, query):
 @bot.on_callback_query(filters.regex("back_to_home"))
 async def back_to_home_menu(client, query):
     mention = query.from_user.mention
-    caption = f"""**┌────── ˹ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ˼──────•\n┆◍ ʜᴇʏ {mention},\n└──────────────────────•\n» ✦ ϻσsᴛ ᴘσᴡєꝛғυʟʟ ϻυsɪᴄ ʙσᴛ  \n» ✦ ʙєsᴛ ғєᴧᴛυꝛє ʙσᴛ ση ᴛєʟєɢꝛᴧϻ \n» ✦ ᴧᴅᴅ ϻє ɢꝛσυᴘ ᴛσ sєє ϻʏ ᴘσᴡєꝛ\n•──────────────────────•\n❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [𝙱𝙾𝚃-𝙲𝙷𝙰𝙼𝙴𝚁](t.me/ll_BOTCHAMBER_ll)❤️‍🔥\n•──────────────────────•**"""
+    caption = f"""**┌────── ˹ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ˼──────•\n┆◍ ʜᴇʏ {mention},\n└──────────────────────•\n» ✦ ϻσsᴛ ᴘσᴡєꝛғυʟʟ ϻυsɪᴄ ʙσᴛ  \n» ✦ ʙєsᴛ ғєᴧᴛυꝛє ʙσᴛ ση ᴛєʟєɢꝛᴧϻ \n» ✦ ᴧᴅᴅ ϻє ɢꝛσυᴘ ᴛσ sєє ϻʏ ᴘσᴡєꝛ\n•──────────────────────•\n❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [𝙱𝙾𝚃-𝙲𝙷𝙰𝙼𝙱𝙴𝚁](t.me/ll_BOTCHAMBER_ll)❤️‍🔥\n•──────────────────────•**"""
 
     buttons = InlineKeyboardMarkup(
         inline_keyboard=[
