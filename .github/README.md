@@ -1,6 +1,6 @@
 
 <h2 align="center">
-    ──【 ʀɪsʜυ-ϻυsɪᴄ 】🚩──
+    ──【 ʀᴀᴅʜᴇ-ϻυsɪᴄ 】🚩──
 </h2>
 <div align="center">
     <img src="https://github.com/RishuBot/RishuMusic/blob/main/.github/Rishu.gif" alt="RishuMusic GIF" />
