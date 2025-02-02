@@ -1526,7 +1526,7 @@ async def check_bot_stats(client, message):
     except:
         pass
     photo = START_IMAGE_URL
-    caption = "**【 ʀɪsʜυ-ϻυsɪᴄ 】༗**"
+    caption = "**【 ʀᴀᴅʜᴇ-ϻυsɪᴄ 】༗**"
     buttons = InlineKeyboardMarkup(
         [
             [
@@ -1565,7 +1565,7 @@ async def check_total_stats(client, query):
         video_chats = len(ACTIVE_VIDEO_CHATS)
         
         return await query.answer(
-            f"""⏱️ 【 ʀɪsʜυ-ϻυsɪᴄ 】
+            f"""⏱️ 【 ʀᴀᴅʜᴇ-ϻυsɪᴄ 】
 ☛ {uptime}
 
 🔴 Served Chats: {served_chats}
