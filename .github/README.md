@@ -3,7 +3,7 @@
     ──【 ʀᴀᴅʜᴇ-ϻυsɪᴄ 】🚩──
 </h2>
 <div align="center">
-    <img src="https://github.com/RishuBot/RishuMusic/blob/main/.github/Rishu.gif" alt="RishuMusic GIF" />
+    <img src="https://github.com/RishuBot/RishuMusic/blob/main/.github/Rishu.gif" alt="RadheMusic GIF" />
 </div>
 
 <p align="center">
@@ -99,7 +99,7 @@
 
 </details>
 
-## The RishuMusic Music Bot offers a range of commands to enhance your music listening experience on Telegram:
+## The RadheMusic Music Bot offers a range of commands to enhance your music listening experience on Telegram:
 
 | Command                 | Description                                 |
 |-------------------------|---------------------------------------------|
@@ -120,9 +120,9 @@
 </h3>
 
 <p align="center">
-<a href="https://t.me/ur_rishu_143"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/ll_BOTCHAMBER_ll"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 <p align="center">
-<a href="https://t.me/ur_rishu_143"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/ll_BOTCHAMBER_ll"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
