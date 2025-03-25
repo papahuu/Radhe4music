@@ -747,12 +747,15 @@ async def create_thumbnail(results, user_id):
 # Some Functions For VC Player
 
 
+import asyncio
+import yt_dlp
+
 async def get_youtube_stream(link):
     loop = asyncio.get_running_loop()
     
     def get_stream_url():
         ydl_opts = {
-            "format": "bestaudio/best",
+            "format": "bestaudio",
             "geo_bypass": True,
             "nocheckcertificate": True,
             "quiet": True,
@@ -764,8 +767,7 @@ async def get_youtube_stream(link):
             return info.get("url")
         
     stream_url = await loop.run_in_executor(None, get_stream_url)
-    return stream_url
-    )
+    return stream_url )
     return downloaded_file
 
 
