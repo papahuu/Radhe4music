@@ -1,4 +1,4 @@
-import aiohttp, aiofiles, asyncio, base64, logging
+uimport aiohttp, aiofiles, asyncio, base64, logging
 import os, platform, random, re, socket
 import sys, time, textwrap, yt_dlp
 
@@ -748,24 +748,23 @@ async def create_thumbnail(results, user_id):
 
 
 async def get_youtube_stream(link):
-    loops = asyncio.get_running_loop()
+    loop = asyncio.get_running_loop()
+    
     def get_stream_url():
-        ydl_optssx = {
-            "format": "best",
-            "outtmpl": "downloads/%(id)s.%(ext)s",
+        ydl_opts = {
+            "format": "bestaudio/best",
             "geo_bypass": True,
             "nocheckcertificate": True,
             "quiet": True,
             "no_warnings": True,
             "cookiefile": "cookies.txt",
         }
-        x = yt_dlp.YoutubeDL(ydl_optssx)
-        info = x.extract_info(link, False)
-        xyz = info['url']
-        return xyz
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            info = ydl.extract_info(link, download=False)
+            return info.get("url")
         
-    downloaded_file = await loops.run_in_executor(
-        None, get_stream_url
+    stream_url = await loop.run_in_executor(None, get_stream_url)
+    return stream_url
     )
     return downloaded_file
 
