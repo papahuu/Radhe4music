@@ -767,7 +767,6 @@ async def get_youtube_stream(link):
             return info.get("url")
         
     stream_url = await loop.run_in_executor(None, get_stream_url)
-    return stream_url )
     return downloaded_file
 
 
